@@ -1,0 +1,13 @@
+//Entrar en MYSQL
+mysql -h localhost -p -u root
+
+//Crear Base de Datos GeoIP
+create database geoip;
+
+//Mirar mis Bases de Datos
+show databases;
+
+//Entrar en la Base de Datos creada
+use geoip;
+
+//Una vez estoy dentro, ejecuto el documento .sql
